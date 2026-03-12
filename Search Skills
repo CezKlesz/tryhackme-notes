@@ -1,0 +1,14 @@
+## Search Engines
+
+## search operators:
+- "exact phrase" - looking for exact words on page
+- site: - looking for something on exact site'
+- - (minus sign) - omit search results with phrase that I don't want in my search
+- filetype: - for example pdf, ppt, doc etc.
+
+## Examples
+site:github.com password
+filetype:ppt "drones in sourveying"
+
+## Conclusions
+Using search operators helps you find specific data and makes it easier to search for sensitive data or system documentation, for example.
