@@ -1,4 +1,4 @@
-## Search Engines
+1. Search Engines
 
 ## search operators:
 - "exact phrase" - looking for exact words on page
@@ -12,3 +12,62 @@ filetype:ppt "drones in sourveying"
 
 ## Conclusions
 Using search operators helps you find specific data and makes it easier to search for sensitive data or system documentation, for example.
+
+2. Specialized Search Engines
+
+## Shodan search engine  [https://www.shodan.io/]
+- to search types and versions of servers, networking equipment, industrial control systems, IoT devices. 
+For example I can check in which country uses the most of some type of servers
+
+## Censys  [https://search.censys.io/]
+- focuses on Internet-connected devices and systems, such as servers, routers, webcams, IoT devices. 
+- Focuses on Internet-connected hosts, websites, certificates, and other Internet assets
+- Some of its use cases include enumerating domains in use, auditing open ports and services, and discovering rogue assets within a network
+
+## VirusTotal  [https://www.virustotal.com/gui/home/upload]
+- Online website, provides virus-scanning service or files using multiple antivirus engines
+- Allows users to upload files or provide URLs to scan them against numerous antivirus engines and website scanners in a single operation
+- They can input file hashes to check the results of previously uploaded files
+For example I can search hash to see results of previous scans or scan a file or a website 
+
+## Have I Been Pawned (HIBP)  [https://haveibeenpwned.com/]
+- Does one thing - it tells if an email address has appeard in a leaked data breach. Finding one's email within leaked data indicates leaked private information and, more impotantly, passwords
+Checks if info of an email has leaked
+
+3. Voulnerabilities and Exploits
+
+## CVE (Common Vulnerabilities and Exposures) [https://www.cve.org/]
+- dictionary of vulnerabilities
+- Provides standardized identifier for vulnerabilities and security issues in software and hardware products. 
+- Each vulnerability is assigned a CVE ID with a standardized format like [CVE-2024-29988]
+- Alternative [National Vulnerability Database] (NVD) [https://nvd.nist.gov/]
+
+## Exploid Database
+There are many reasons why you would want to exploit a vulnerable application; one would be assessing a company’s security as part of its red team. 
+Needless to say, we should not try to exploit a vulnerable system unless we are given permission, usually via a legally binding agreement.
+- Exploid Database lists exploit codes from various authors; some of these exploit codes are tested and marked as verified.
+
+4. Technical Documentation
+
+## Linux Manual Pages 
+- manul pages for [ip] --> type [man ... (ip for example)]
+- or in a browser (link)
+
+## Microsoft Windows [https://learn.microsoft.com/pl-pl/]
+- Microsoft provides an official Technical Documentation page for its products [for example ipconfig]
+
+## Product Documentation
+Every popular product is expected to have well-organized documentation. This documentation provides an official and reliable source of information about the product features and functions. Examples include:
+- https://www.snort.org/documents
+- https://httpd.apache.org/docs/
+- https://www.php.net/manual/en/index.php
+- https://nodejs.org/docs/latest/api/
+
+5. Social Media
+
+To just expllore websites best is to register using temporary emails without linking main addresses and without risking leaking information.
+
+Social media are valuable source of information for pottential attacks.
+Employees may unknowingly expose sensitive information on social media that can be exploited by adversaries — for example, posts that reveal answers to common security/secret questions (e.g., childhood school, first pet, hometown).
+Need to be updated via social media channels, groups etc. for valuable news about cyber-security
+
